@@ -30,17 +30,25 @@
 La dirección IP usada fue: 202.24.34.55
 
 Y la salida de ejecutar la búsqueda para esta dirección IP es:
+![Salida de la búsqueda](img/output.jpeg)
 
+Este es el código usado para conocer los núcleos del computador, que son 4
+![Cores](img/NumberCores.jpeg)
 
 1. Un solo hilo.
-
+   ![Un solo hilo](img/1thread.jpeg)
 2. Tantos hilos como núcleos de procesamiento (haga que el programa determine esto haciendo uso del API Runtime).
-
+   ![Cuatro hilos](img/4threads.jpeg)
 3. Tantos hilos como el doble de núcleos de procesamiento.
- 
+   ![Ocho hilos](img/8threads.jpeg)
 4. 50 hilos.
-
+   ![50 hilos](img/50threads.jpeg)
 5. 100 hilos.
+   ![100 hilos](img/100threads.jpeg)
+
+
+Esta es la gráfica Tiempo(s) vs. Cantidad de hilos
+![Gráfica de solución](img/GraficaSolucion.jpeg)
 
 
 **Parte VI - Ley de Amdahls**
